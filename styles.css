@@ -53,5 +53,13 @@ img {
 }
 .projectCard {
   border: 2px black solid;
+  width: 300px;
+}
+
+@media(max-width:426px)
+{
+  .sectionProjects{
+    flex-direction: column;
+  }
 }
 /* FOOTER */
